@@ -7,7 +7,7 @@ build:
 run:
    node index.js
 
-dockertest:
+dockerstart:
    make setup
    make build
    make run
