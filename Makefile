@@ -1,5 +1,5 @@
 setup:
-	apt-get install -y nodejs
+	apt-get install -y nodejs npm
 	npm install http
 
 build:
