@@ -1,14 +1,13 @@
 setup:
-   npm install http
+	npm install http
 
 build:
-   echo "nothing to build, this Node, but thank you for thinking of me"
+	echo "nothing to build, this Node, but thank you for thinking of me"
 
 run:
-   node index.js
+	node index.js
 
 dockerstart:
-   make setup
-   make build
-   make run
-
+	make setup
+	make build
+	make run
